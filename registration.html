@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="modern.css">
+</head>
+<body>
+
+  <div class="form-card">
+    <div class="form-header">
+      
+    
+      <h2>🎟 Event Registration</h2>
+      <p>Join your favorite college events now!</p>
+    </div>
+
+    <form action="register.php" method="POST" class="form-body">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+
+      <select name="event" required>
+        <option value="" disabled selected>Select Event</option>
+        <option value="Freshers Party">🎉 Freshers Party</option>
+        <option value="Sports Week">⚽ Sports Week</option>
+        <option value="Cultural Fest">🎭 Cultural Fest</option>
+      </select>
+
+      <button type="submit">Register Now</button>
+    </form>
+    <p style="text-align: center; margin-top: 10px;">
+      <a href="index.html">Back to Home</a>
+    </p>
+  </div>
+
+</body>
+</html>
+<!-- this is registration.html code -->
